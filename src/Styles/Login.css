@@ -1,0 +1,161 @@
+.login_container {
+  display: flex;
+}
+.login_container .container_logo {
+  display: grid;
+  place-content: center;
+  position: relative;
+}
+.login_container .container_logo--icon {
+  position: absolute;
+  width: 173.76px;
+  height: 36px;
+  left: 0;
+  top: 0;
+  padding: 50px;
+}
+.login_container .container_logo--image {
+  width: 600px;
+  height: 337.57px;
+  left: 67px;
+  top: 281px;
+  background: url("../Assets//images/login-image.svg");
+}
+.login_container .loginContainer {
+  width: 704px;
+  height: 100vh;
+  left: 736px;
+  background: #ffffff;
+  box-shadow: 0px 15px 90px rgba(0, 0, 0, 0.03);
+  display: grid;
+  place-content: center;
+}
+.login_container .loginContainer .loginContainer_info--title {
+  width: 183px;
+  height: 55px;
+  left: 836px;
+  top: 215px;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+  letter-spacing: -0.04em;
+  color: #213f7d;
+}
+.login_container .loginContainer .loginContainer_info--text {
+  width: 194px;
+  height: 28px;
+  left: 836px;
+  top: 280px;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #545f7d;
+}
+.login_container .loginContainer .loginContainer_formInput--email {
+  width: 447px;
+  height: 50px;
+  left: 836px;
+  top: 368px;
+  background: #ffffff;
+  border: 2px solid rgba(84, 95, 125, 0.15);
+  border-radius: 5px;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  border: none;
+  color: #545f7d;
+  opacity: 0.6;
+}
+.login_container .loginContainer .loginContainer_formInput .loginContainer_formInput--passwordDiv {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0px 5px;
+  width: 447px;
+  height: 50px;
+  left: 836px;
+  background: #ffffff;
+  border: 2px solid rgba(84, 95, 125, 0.15);
+  border-radius: 5px;
+}
+.login_container .loginContainer .loginContainer_formInput .loginContainer_formInput--passwordDiv-password {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  left: 836px;
+  top: 442px;
+  border-radius: 5px;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  border: none;
+  color: #545f7d;
+  opacity: 0.6;
+}
+.login_container .loginContainer .loginContainer_formInput .loginContainer_formInput--passwordDiv-password:focus {
+  outline: none;
+}
+.login_container .loginContainer .loginContainer_formInput .loginContainer_formInput--passwordDiv .loginContainer_formInput--passwordtext {
+  width: 49.41px;
+  height: 12.5px;
+  left: 1215.95px;
+  top: 460px;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #39cdcc;
+}
+.login_container .loginContainer .loginContainer_formInput .loginContainer_formInput--passwordDiv .loginContainer_formInput--passwordtext:hover {
+  cursor: pointer;
+  color: #20807f;
+}
+.login_container .loginContainer .loginContainer_formInput--forgotpassword {
+  width: 147px;
+  height: 17px;
+  left: 836px;
+  top: 516px;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #39cdcc;
+  cursor: pointer;
+}
+.login_container .loginContainer .loginContainer_formInput--btn {
+  cursor: pointer;
+  left: 58.06%;
+  right: 10.9%;
+  top: 62.56%;
+  bottom: 32.11%;
+  background: #39cdcc;
+  border-radius: 8px;
+  width: 447px;
+  height: 48px;
+  border: none;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}/*# sourceMappingURL=Login.css.map */
