@@ -1,0 +1,129 @@
+.sidebar_container {
+  display: flex;
+  flex-direction: column;
+  width: 283px;
+  left: 0px;
+  top: 0px;
+  bottom: -121px;
+
+  background: #ffffff;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.04);
+  &--organization {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    height: 19px;
+    top: 139px;
+    margin-top: 39px;
+    margin-bottom: 3rem;
+    margin-left: 30px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #213f7d;
+  }
+  &--dashboard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 105px;
+    height: 19px;
+    top: 210px;
+    margin-bottom: 41px;
+    margin-left: 30px;
+    margin-right: 143px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #213f7d;
+  }
+  &--customers {
+    width: 100%px;
+    height: 100%;
+    margin-left: 30px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #545f7d;
+    &--A {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-sizing: border-box;
+      font-family: "Work Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #213f7d;
+      width: 70%;
+      & .text {
+        width: 80%;
+        text-align: left;
+      }
+    }
+  }
+  &--business {
+    width: 100%px;
+    height: 100%;
+    margin-left: 30px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #545f7d;
+    &--B {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-sizing: border-box;
+      font-family: "Work Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #213f7d;
+      width: 70%;
+      & .text {
+        width: 80%;
+        text-align: left;
+      }
+    }
+  }
+  &--setting {
+    width: 100%px;
+    height: 100%;
+    margin-left: 30px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #545f7d;
+    &--C {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-sizing: border-box;
+      font-family: "Work Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #213f7d;
+      width: 70%;
+      & .text {
+        width: 80%;
+        text-align: left;
+      }
+    }
+  }
+}
