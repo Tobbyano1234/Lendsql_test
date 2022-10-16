@@ -1,1 +1,52 @@
-/*# sourceMappingURL=Card.css.map */
+.card-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.card-container--carousel {
+  margin: 26px;
+  width: 240px;
+  height: 160px;
+  background: #ffffff;
+  border: 1px solid rgba(33, 63, 125, 0.06);
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+}
+.card-container--carousel:first-child {
+  margin-left: 0;
+}
+.card-container--carousel--icon {
+  width: 40px;
+  height: 40px;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 14px;
+}
+.card-container--carousel--value {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: 16px;
+  margin-left: 30px;
+  margin-bottom: 12px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #545f7d;
+}
+.card-container--carousel--count {
+  margin-left: 30px;
+  margin-bottom: 12px;
+  width: 65px;
+  height: 28px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #213f7d;
+}/*# sourceMappingURL=Card.css.map */

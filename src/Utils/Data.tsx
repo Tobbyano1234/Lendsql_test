@@ -18,6 +18,10 @@ import transaction from "../Assets/images/transaction.svg";
 import service from "../Assets/images/services.svg";
 import serviceAccount from "../Assets/images/service account.svg";
 import savingProduct from "../Assets/images/saving product.svg";
+import userCardImg from "../Assets/images/carousel user.svg";
+import activeUserImg from "../Assets/images/carousel active user .svg";
+import userWithLoanImg from "../Assets/images/carousel user with loan.svg";
+import userWithSavingImg from "../Assets/images/carousel user with savings.svg";
 
 export const links = [
   { id: 1, url: "/", text: "Docs" },
@@ -130,5 +134,32 @@ export const settings = [
     id: 3,
     value: "Audit Logs",
     icon: <img src={audit} alt="icon" />,
+  },
+];
+
+export const cardItems = [
+  {
+    id: 1,
+    icon: <img src={userCardImg} alt="icon" />,
+    value: "USERS",
+    count: "2,453",
+  },
+  {
+    id: 2,
+    icon: <img src={activeUserImg} alt="icon" />,
+    value: "ACTIVE USERS",
+    count: "2,453",
+  },
+  {
+    id: 3,
+    icon: <img src={userWithLoanImg} alt="icon" />,
+    value: "USERS WITH LOANS",
+    count: "12,453",
+  },
+  {
+    id: 4,
+    icon: <img src={userWithSavingImg} alt="icon" />,
+    value: "USERS WITH SAVINGS",
+    count: "102,453",
   },
 ];

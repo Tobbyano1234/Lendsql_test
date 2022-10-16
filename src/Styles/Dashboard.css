@@ -3,4 +3,29 @@
   width: 1440px;
   height: 1384px;
   background: #fbfbfb;
+}
+.dashboard_container--content {
+  position: absolute;
+  background-color: aquamarine;
+  width: 1037px;
+  height: 930px;
+  top: 160px;
+  left: 343px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.dashboard_container--content--user {
+  width: 66px;
+  height: 28px;
+  margin-bottom: 40px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  margin-top: -1.6rem;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 24px;
+  line-height: 28px;
+  color: #213f7d;
 }/*# sourceMappingURL=Dashboard.css.map */
